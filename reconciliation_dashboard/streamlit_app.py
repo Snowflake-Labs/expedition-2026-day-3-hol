@@ -228,7 +228,7 @@ for _, gap in gap_df.iterrows():
 
         if tid == "BK-3006":
             st.info(
-                "**Root cause:** The wire transfer for the Grand Ballroom venue deposit was "
+                "**Root cause:** The wire transfer for the Grand Ballroom renovation deposit was "
                 "authorized and paid on Nov 12, but nobody created the corresponding GL journal "
                 "entry. This is the same type of gap the auditors flagged last quarter.",
                 icon="\U0001f50d",
